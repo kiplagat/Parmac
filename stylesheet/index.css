@@ -1,0 +1,165 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+background-image:url(../images/001-wood-melamine-subttle-pattern-background-pat.jpg);
+}
+#main
+{
+width:90%;
+height:640px;
+margin-left:5%;
+margin-right:5%;
+float:left;
+background-color:#FFFFFF;
+}
+#main1
+{
+width:90%;
+height:inherit;
+background-color:#FFFFFF;
+margin-left:5%;
+margin-right:5%;
+float:left;
+}
+#header ul{
+list-style:none;
+}
+#header ul li {
+width:inherit;
+background-color:#CC0000;
+border-radius:1px;
+text-decoration:none;
+margin-left:50px;
+margin-top:0px;
+float:left;;
+}
+#header ul li a {
+text-decoration:inherit;
+font-size:18px;
+font-family:Arial, Helvetica, sans-serif;
+color:#000000;
+}
+#header ul li a:hover {
+border-radius:1px;
+background-color:#666666;
+}
+#header
+{
+border-radius:5px;
+width:100%;
+height:7%;
+background-color:#CC0000;
+margin-top:5px;
+float:left;
+}
+#content
+{
+width:80%;
+height:88%;
+background-color:#333333;
+margin-top:5px;
+margin-left:10%;
+float:left;
+}
+#content1
+{
+width:80%;
+height:inherit;
+background-color:#FFFFFF;
+margin-top:5px;
+margin-left:10%;
+float:left;
+}
+#footer
+{
+border-radius:5px;
+width:100%;
+height:5%;
+background-color:#CC0000;
+margin-top:5px;
+float:left;;
+}
+form{
+margin-top:8px;
+margin-left:8px;
+}
+hr{
+float:left;
+margin-left:30px;
+}
+#table1{
+float:left;
+margin-top:20px;
+margin-left:0px;
+background-color:#00FFFF;
+}
+#table2{
+float:right;
+margin-top:20px;
+margin-right:50px;
+background-color:#00FFFF;
+}
+fieldset{
+border-radius:5px;
+}
+//css for js
+#slider1 {
+    width:inherit; /* important to be same as image width */
+    height:inherit; /* important to be same as image height */
+    position: relative; /* important */
+	overflow: hidden; /* important */
+	background-color:blue;
+	float:left;
+}
+#slider1Content img{
+width:550px;
+height:550px;
+margin-left:0px;
+}
+
+#slider1Content {
+    width: 250px; /* important to be same as image width or wider */
+    position: absolute;
+	top:inherit;
+	margin-left:0px;
+}
+.slider1Image {
+    float: left;
+    position:inherit;
+	display: none;
+}
+.slider1Image span {
+    position: absolute;
+	font: 10px/15px Arial, Helvetica, sans-serif;
+    padding: 50px 50px;
+    width: 100px;
+    background-color:#333333;
+    filter: alpha(opacity=70);
+    -moz-opacity: 0.7;
+	-khtml-opacity: 0.7;
+    opacity: 0.7;
+    color: #fff;
+    display: none;
+}
+.clear {
+	clear: both;
+}
+#links{
+background-color:#009900;
+}
+.slider1Image span strong {
+    font-size: 14px;
+}
+.left {
+	top: 0;
+    left: 0;
+	width: 110px !important;
+	height: 240px;
+}
+.right {
+	right: 0;
+	bottom: 0;
+	width: 90px !important;
+	height: 240px;
+}
+ul { list-style-type: none;}	
